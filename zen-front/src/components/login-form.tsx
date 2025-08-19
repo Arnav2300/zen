@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import ZenLogo from "@/components/assets/zen-logo"
+import Link from "next/link"
 
 export function LoginForm({
   className,
@@ -25,9 +26,9 @@ export function LoginForm({
             <h1 className="text-xl font-bold">Welcome to Zen.</h1>
             <div className="text-center text-sm">
               Don&apos;t have an account?{" "}
-              <a href="#" className="underline underline-offset-4">
+              <Link href="/signup" className="underline underline-offset-4">
                 Sign up
-              </a>
+              </Link>
             </div>
           </div>
           <div className="flex flex-col gap-6">
