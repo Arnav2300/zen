@@ -19,14 +19,14 @@ export function SignupForm({
                             className="flex flex-col items-center gap-2 font-medium"
                         >
                             <div className="flex size-10 items-center justify-center rounded-md">
-                                <ZenLogo className="w-10 h-10 text-white" />
+                                <ZenLogo className="w-10 h-10 dark:text-white duration-500 hover:text-primary ease-in-out" />
                             </div>
                             <span className="sr-only">Zen.</span>
                         </a>
                         <h1 className="text-xl font-bold">Welcome to Zen.</h1>
                         <div className="text-center text-sm">
                             Already have an account?{" "}
-                            <Link href="/login" className="underline underline-offset-4">
+                            <Link href="/login" className="underline underline-offset-4 hover:text-primary duration-300 ease-in-out">
                                 Login
                             </Link>
                         </div>
