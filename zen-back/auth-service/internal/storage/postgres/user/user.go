@@ -1,7 +1,7 @@
 package user
 
 import (
-	"auth-service/domain"
+	"auth-service/internal/domain"
 	"context"
 
 	"github.com/google/uuid"
